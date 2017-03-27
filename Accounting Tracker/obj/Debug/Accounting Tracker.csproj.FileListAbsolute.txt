@@ -1,2 +1,19 @@
 c:\users\andrew\documents\visual studio 2015\Projects\Accounting Tracker\Accounting Tracker\bin\Debug\Accounting Tracker.exe.config
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\Accounting Tracker.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\Accounting Tracker.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\Accounting Tracker.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\EntityFramework.dll
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\System.Data.SQLite.dll
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\EntityFramework.xml
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\bin\Debug\System.Data.SQLite.xml
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\obj\Debug\Accounting Tracker.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\obj\Debug\Accounting_Tracker.HomeForm.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\obj\Debug\Accounting_Tracker.ViewEntriesForm.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\obj\Debug\Accounting_Tracker.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\obj\Debug\Accounting Tracker.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\obj\Debug\Accounting Tracker.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\Accounting Tracker\IISE-Accounting-Tracker\Accounting Tracker\obj\Debug\Accounting Tracker.pdb
