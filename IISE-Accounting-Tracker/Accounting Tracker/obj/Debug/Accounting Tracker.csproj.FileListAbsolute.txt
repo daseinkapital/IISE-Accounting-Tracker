@@ -1,1 +1,0 @@
-c:\users\andrew\documents\visual studio 2015\Projects\Accounting Tracker\Accounting Tracker\bin\Debug\Accounting Tracker.exe.config
