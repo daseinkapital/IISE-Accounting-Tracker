@@ -36,6 +36,8 @@
             // 
             // GenerateReport
             // 
+            this.GenerateReport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.GenerateReport.AutoSize = true;
             this.GenerateReport.Location = new System.Drawing.Point(648, 380);
             this.GenerateReport.Name = "GenerateReport";
             this.GenerateReport.Size = new System.Drawing.Size(400, 97);
@@ -45,6 +47,8 @@
             // 
             // UpdateEntries
             // 
+            this.UpdateEntries.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.UpdateEntries.AutoSize = true;
             this.UpdateEntries.Location = new System.Drawing.Point(648, 96);
             this.UpdateEntries.Name = "UpdateEntries";
             this.UpdateEntries.Size = new System.Drawing.Size(400, 96);
@@ -54,9 +58,10 @@
             // 
             // ViewEntries
             // 
-            this.ViewEntries.Location = new System.Drawing.Point(81, 96);
+            this.ViewEntries.AutoSize = true;
+            this.ViewEntries.Location = new System.Drawing.Point(71, 96);
             this.ViewEntries.Name = "ViewEntries";
-            this.ViewEntries.Size = new System.Drawing.Size(400, 96);
+            this.ViewEntries.Size = new System.Drawing.Size(410, 96);
             this.ViewEntries.TabIndex = 2;
             this.ViewEntries.Text = "View Entries";
             this.ViewEntries.UseVisualStyleBackColor = true;
@@ -64,6 +69,8 @@
             // 
             // SettingHelp
             // 
+            this.SettingHelp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SettingHelp.AutoSize = true;
             this.SettingHelp.Location = new System.Drawing.Point(71, 380);
             this.SettingHelp.Name = "SettingHelp";
             this.SettingHelp.Size = new System.Drawing.Size(410, 97);
@@ -85,6 +92,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

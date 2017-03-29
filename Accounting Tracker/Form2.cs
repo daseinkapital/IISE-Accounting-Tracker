@@ -24,5 +24,11 @@ namespace Accounting_Tracker
             Home.Activate();
             Close();
         }
+
+        private void FiscalYearDropdown_SelectedValueChanged(object sender, EventArgs e)
+        {
+            EventLabel.Visible = true; //Unhide additional data fields
+            EventDropdown.Visible = true;
+        }
     }
 }
