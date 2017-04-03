@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
+using System.Data.SqlClient;
 
 namespace Accounting_Tracker
 {
     public partial class ViewEntriesForm : Form
     {
+        SQLiteConnection m_dbConnection = new SQLiteConnection("DataSource=LedgerTracking.sqlite; Version=3"); //establish database connection
+
         public ViewEntriesForm()
         {
             InitializeComponent();
@@ -29,6 +33,10 @@ namespace Accounting_Tracker
         {
             EventLabel.Visible = true; //Unhide additional data fields
             EventDropdown.Visible = true;
+            string query = "SELECT * FROM Ledger WHERE fiscal_yr = @param1";
+            SQLiteCommand Populate = new SQLiteCommand(query, m_dbConnection);
+            Populate.CommandText = query;
+
         }
     }
 }

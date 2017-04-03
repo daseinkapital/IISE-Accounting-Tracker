@@ -15,25 +15,19 @@ namespace Accounting_Tracker
 {
     public partial class HomeForm : Form
     {
-        SQLiteConnection m_dbConnection; //establish database connection
+        SQLiteConnection m_dbConnection = new SQLiteConnection("DataSource=LedgerTracking.sqlite; Version=3"); //establish database connection
 
         public HomeForm()
         {
             InitializeComponent();
-            m_dbConnection = new SQLiteConnection("Data Source=LedgerTracking.sqlite; Version=3"); //Find data source
             m_dbConnection.Open(); //Open connection to the database
-            if (File.Exists(@"LedgerTracking.sqlite")) //Check if our database exists
-            {
-                string query = "SELECT * FROM Ledger";
-                SQLiteCommand Populate = new SQLiteCommand(query, m_dbConnection);
-                Populate.CommandText = query;
-
-            }
-            else
+            if (!File.Exists(@"LedgerTracking.sqlite")) //Check if our database doesn't exists
             {
                 SQLiteConnection.CreateFile("LedgerTracking.sqlite"); //If the DB doesn't exist we want to create it
-            }
-
+                string CreateTableQuery = "CREATE TABLE Ledger (TransactionNum INTEGER PRIMARY KEY AUTOINCREMENT, fiscal_yr VARCHAR(9), event VARCHAR(250), category VARCHAR(40), price REAL, purpose TEXT, CheckNo INT(4), Date VARCHAR(20))";
+                SQLiteCommand CreateTable = new SQLiteCommand(CreateTableQuery, m_dbConnection);
+                CreateTable.ExecuteNonQuery(); //creates the table after making the database
+            };
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,6 +41,14 @@ namespace Accounting_Tracker
             frm.Show();
             frm.Activate();
             this.Hide(); 
+        }
+
+        private void UpdateEntries_Click(object sender, EventArgs e)
+        {
+            UpdateDataFrm frm = new UpdateDataFrm();
+            frm.Show();
+            frm.Activate();
+            this.Hide();
         }
     }
 }
