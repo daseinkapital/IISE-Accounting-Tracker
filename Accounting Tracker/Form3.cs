@@ -17,11 +17,15 @@ namespace Accounting_Tracker
             InitializeComponent();
         }
 
+        public bool CSVType;
+
         private void CSVLoadButton_Click(object sender, EventArgs e)
         {
             LedgerCSVUpload frm = new LedgerCSVUpload();
             frm.Show();
             frm.Activate();
         }
+
+
     }
 }
